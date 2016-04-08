@@ -5,10 +5,6 @@
     using System.Web.Routing;
 
     using FabrikamFiber.DAL.Data;
-    using System;
-    using System.Text;
-    using System.Collections;
-    using System.Collections.Generic;
 
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -30,6 +26,7 @@
 
         protected void Application_BeginRequest()
         {
+            
         }
 
         protected void Application_Start()

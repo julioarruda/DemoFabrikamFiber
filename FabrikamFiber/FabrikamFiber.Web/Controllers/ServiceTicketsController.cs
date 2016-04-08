@@ -165,7 +165,6 @@ namespace FabrikamFiber.Web.Controllers
             {
                 this.serviceTicketRepository.InsertOrUpdate(serviceticket);
                 this.serviceTicketRepository.Save();
-
                 return RedirectToAction("Details", new { id = serviceticket.ID });
             }
 
