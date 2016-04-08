@@ -1,0 +1,77 @@
+08/04/2016 13:04:19	This log contains information about the import schema operation into project 'Fabrikam.DB' on computer 'NI511200FSLU999' by user '2PC01'.
+08/04/2016 13:04:19	Import of database schema has started.
+08/04/2016 13:04:34	Gathering logins
+08/04/2016 13:04:36	Gathering database options
+08/04/2016 13:04:36	Gathering users
+08/04/2016 13:04:36	Gathering roles
+08/04/2016 13:04:36	Gathering application roles
+08/04/2016 13:04:36	Gathering role memberships
+08/04/2016 13:04:36	Gathering filegroups
+08/04/2016 13:04:36	Gathering full-text catalogs
+08/04/2016 13:04:36	Gathering assemblies
+08/04/2016 13:04:36	Gathering certificates
+08/04/2016 13:04:36	Gathering symmetric keys
+08/04/2016 13:04:36	Gathering encrypted symmetric keys
+08/04/2016 13:04:36	Gathering schemas
+08/04/2016 13:04:36	Gathering XML schema collections
+08/04/2016 13:04:36	Gathering user-defined data types
+08/04/2016 13:04:36	Gathering user-defined types
+08/04/2016 13:04:36	Gathering table types
+08/04/2016 13:04:36	Gathering unique keys for table types
+08/04/2016 13:04:36	Gathering primary keys for table types
+08/04/2016 13:04:36	Gathering indexes for table types
+08/04/2016 13:04:36	Gathering check constraints for table types
+08/04/2016 13:04:36	Gathering default constraints for table types
+08/04/2016 13:04:36	Gathering partition functions
+08/04/2016 13:04:36	Gathering partition schemes
+08/04/2016 13:04:36	Gathering functions
+08/04/2016 13:04:36	Gathering encrypted functions
+08/04/2016 13:04:36	Gathering aggregates
+08/04/2016 13:04:36	Gathering procedures
+08/04/2016 13:04:36	Gathering encrypted procedures
+08/04/2016 13:04:36	Gathering tables
+08/04/2016 13:04:37	Gathering primary keys
+08/04/2016 13:04:37	Gathering unique constraints
+08/04/2016 13:04:37	Gathering foreign keys
+08/04/2016 13:04:37	Gathering default constraints
+08/04/2016 13:04:37	Gathering check constraints
+08/04/2016 13:04:37	Gathering views
+08/04/2016 13:04:37	Gathering encrypted views
+08/04/2016 13:04:37	Gathering indexes
+08/04/2016 13:04:37	Gathering statistics
+08/04/2016 13:04:37	Gathering full-text index stoplists
+08/04/2016 13:04:37	Gathering search property lists
+08/04/2016 13:04:37	Gathering search properties
+08/04/2016 13:04:37	Gathering full-text indexes
+08/04/2016 13:04:37	Gathering column store indexes
+08/04/2016 13:04:37	Gathering spatial indexes
+08/04/2016 13:04:37	Gathering XML indexes
+08/04/2016 13:04:37	Gathering Selective XML indexes
+08/04/2016 13:04:37	Gathering encrypted triggers
+08/04/2016 13:04:37	Gathering triggers
+08/04/2016 13:04:37	Gathering encrypted and clr ddl triggers
+08/04/2016 13:04:37	Gathering ddl triggers
+08/04/2016 13:04:37	Gathering synonyms
+08/04/2016 13:04:37	Gathering defaults
+08/04/2016 13:04:37	Gathering data constraint uddt bindings
+08/04/2016 13:04:37	Gathering rules
+08/04/2016 13:04:37	Gathering data constraint uddt bindings
+08/04/2016 13:04:37	Gathering message types
+08/04/2016 13:04:37	Gathering queues
+08/04/2016 13:04:37	Gathering contracts
+08/04/2016 13:04:37	Gathering services
+08/04/2016 13:04:37	Gathering event notifications
+08/04/2016 13:04:37	Gathering remote service bindings
+08/04/2016 13:04:37	Gathering broker priorities
+08/04/2016 13:04:37	Gathering signatures
+08/04/2016 13:04:37	Gathering data compression options
+08/04/2016 13:04:37	Gathering sequence types
+08/04/2016 13:04:37	Gathering security policies
+08/04/2016 13:04:37	Gather column encryption keys
+08/04/2016 13:04:37	Gathering column master keys
+08/04/2016 13:04:37	Gathering extended properties
+08/04/2016 13:04:40	Scanning project for duplicate elements
+08/04/2016 13:04:40	Finished duplicate element processing
+08/04/2016 13:04:40	Finished importing database.
+08/04/2016 13:04:40	A summary of the import was saved to the following location: C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\Import Schema Logs\Fabrikam.DB_20160408040419.log
+08/04/2016 13:04:40	Click Finish to continue...
