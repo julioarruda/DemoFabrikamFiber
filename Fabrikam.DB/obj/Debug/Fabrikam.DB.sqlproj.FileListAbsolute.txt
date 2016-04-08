@@ -1,9 +1,0 @@
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\bin\Debug\Fabrikam.DB.dacpac
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\bin\Debug\Fabrikam.DB.dll
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\bin\Debug\Fabrikam.DB.pdb
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\obj\Debug\Model.xml
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\obj\Debug\refactor.xml
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\obj\Debug\postdeploy.sql
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\obj\Debug\predeploy.sql
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\obj\Debug\Fabrikam.DB.dll
-C:\Users\2pc01\Source\Repos\DemoFabrikamFiber\FabrikamFiber\Fabrikam.DB\obj\Debug\Fabrikam.DB.pdb
