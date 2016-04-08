@@ -1,4 +1,4 @@
-Configuration MarisaSite 
+Configuration SampleSite 
 { 
 	Import-DSCResource -ModuleName xWebAdministration
 
@@ -53,19 +53,12 @@ Configuration MarisaSite
             Ensure = "Present"
             Type = "Directory"
             Recurse = $true
-            SourcePath = ("{0}\{1}" -f $applicationPath,"Marisa.Ecommerce.Web")
+            SourcePath = ("{0}\{1}" -f $applicationPath,"FabrikamFiber.Web")
             DestinationPath = $Node.DeploymentPath
         }
 
-		# Copy website bits to configured deployment path
-		File CopyStaticDeploymentBits
-        {
-            Ensure = "Present"
-            Type = "Directory"
-            Recurse = $true
-            SourcePath = ("{0}\{1}\{2}" -f $applicationPath,"Marisa.Ecommerce.Web","StaticFiles")
-            DestinationPath = $Node.StaticDeploymentPath
-        }
+
+	
 		
 		# Stop the default website 
 		xWebsite DefaultSite  
@@ -77,8 +70,8 @@ Configuration MarisaSite
 			DependsOn       = "[WindowsFeature]IIS" 
 		}
 
-		# Create and start MarisaWebSite
-		xWebsite MarisaWebSite01  
+		# Create and start Site
+		xWebsite FabrikamWeb  
 		{ 
 			Ensure          = "Present" 
 			Name            = $Node.WebSiteName 
@@ -92,22 +85,9 @@ Configuration MarisaSite
 			DependsOn       = "[File]CopyDeploymentBits" 
 		}
 		
-		# Create and start MarisaWebSite
-		xWebsite MarisaWebStaticSite01  
-		{ 
-			Ensure          = "Present" 
-			Name            = $Node.StaticWebSiteName 
-			State           = "Started" 
-			PhysicalPath    = $Node.StaticDeploymentPath
-			ApplicationPool  = $Node.WebAppPoolName 
-			BindingInfo = MSFT_xWebBindingInformation 
-                        { 
-                            Port = $Node.StaticPort 
-                        } 
-			DependsOn       = "[File]CopyDeploymentBits" 
-		}
+		
 	}
 	
 }
 
-MarisaSite -ConfigurationData $ConfigData -Verbose
+SampleSite -ConfigurationData $ConfigData -Verbose

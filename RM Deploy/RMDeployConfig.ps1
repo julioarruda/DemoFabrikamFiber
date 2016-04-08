@@ -21,10 +21,6 @@ $ConfigData = @{
             WebAppPoolName = $WebAppPollName
             Port = $Port 
             BackupPath = $BackupPath  
-			StaticDeploymentPath = $StaticWebSiteDirectory
-            StaticWebSiteName  = $StaticWebSiteName
-            StaticPort = $StaticPort
-            StaticBackupPath = $StaticBackupPath   
         }
     );
 }
