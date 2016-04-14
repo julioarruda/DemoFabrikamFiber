@@ -90,7 +90,7 @@ namespace FabrikamFiber.DAL.Data
 
         public IQueryable<ServiceTicket> AllForReport(params Expression<Func<ServiceTicket, object>>[] includeProperties)
         {
-            var warehouseContext = new FabrikamFiberWebContext("FabrikamFiber-DataWarehouse");
+            var warehouseContext = new FabrikamFiberWebContext("FabrikamFiber-Express");
             IQueryable<ServiceTicket> query = warehouseContext.ServiceTickets;
 
             foreach (var includeProperty in includeProperties)
