@@ -1,4 +1,7 @@
-﻿In order to use the Intranet template, you'll need to enable Windows Authentication
+﻿"AJUSTE TESTE SINC 2 REPO GIT"
+
+
+In order to use the Intranet template, you'll need to enable Windows Authentication
 and disable Anonymous Authentication.
 
 For detailed instructions (including instructions for IIS 6.0), please visit
