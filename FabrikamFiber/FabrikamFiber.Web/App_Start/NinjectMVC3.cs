@@ -1,7 +1,5 @@
-using Ninject.Web.Common;
-
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(FabrikamFiber.Web.App_Start.NinjectMVC3), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(FabrikamFiber.Web.App_Start.NinjectMVC3), "Stop")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(FabrikamFiber.Web.App_Start.NinjectMVC3), "Start")]
+////[assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(FabrikamFiber.Web.App_Start.NinjectMVC3), "Stop")]
 
 namespace FabrikamFiber.Web.App_Start
 {
@@ -19,7 +17,7 @@ namespace FabrikamFiber.Web.App_Start
         /// </summary>
         public static void Start() 
         {
-            DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
+            DynamicModuleUtility.RegisterModule(typeof(OnePerRequestModule));
             bootstrapper.Initialize(CreateKernel);
         }
 
