@@ -11,3 +11,7 @@ Demo Alteração AppSettings Azure WebApps: https://msdn.microsoft.com/en-us/lib
 
 Demo Alteração WebConfig Azure WebApps:
 http://donovanbrown.com/post/2015/12/28/how-can-i-change-the-connection-strings-of-my-azure-web-apps-during-deployment-from-vsts-build-or-release
+
+
+
+##teste##
